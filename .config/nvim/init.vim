@@ -2,7 +2,7 @@
 let g:python3_host_prog = '/usr/local/bin/python3'
 call plug#begin('~/.vim/plugged')
 " coc
-Plug 'neoclide/coc.nvim', {'branch': 'release', 'commit': '89cd42aea4cb91cac40fe96b756d43a34b442a64'}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': 'CocInstall -sync coc-html'}
 "Plug '/opt/homebrew/bin/fzf'
 Plug 'junegunn/fzf', {'dir': '~/.fzf','do': './install --all'}
 Plug 'junegunn/fzf.vim' " needed for previews
