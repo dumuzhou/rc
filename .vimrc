@@ -37,7 +37,6 @@ Plug 'scrooloose/nerdcommenter'
 
 call plug#end()
 
-if $NVM_BIN != ""
-  let g:coc_node_path = '$NVM_BIN/node'
-endif
+
+let g:coc_node_path = trim(system('which node'))
 
