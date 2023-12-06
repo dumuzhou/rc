@@ -34,6 +34,7 @@ Plug 'groenewege/vim-less'
 " 目录和注释
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter'
+Plug 'github/copilot.vim'
 
 call plug#end()
 
