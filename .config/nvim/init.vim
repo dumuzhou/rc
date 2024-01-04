@@ -38,7 +38,7 @@ Plug 'github/copilot.vim'
 
 call plug#end()
 
-let g:rooter_patterns = ['.git', 'Cargo.toml', 'package.json', 'Makefile', '*.sln', 'build/env.sh']
+let g:rooter_patterns = ['.git', 'Cargo.lock', 'package.json', 'Makefile', '*.sln', 'build/env.sh']
 
 
 "let g:SuperTabDefaultCompletionType = "<c-n>"
